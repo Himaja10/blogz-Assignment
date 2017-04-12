@@ -1,0 +1,13 @@
+def count_dict(mystring):
+    d = {}
+# count occurances of character
+    for w in mystring: 
+        d[w] = mystring.count(w)
+# print the result
+    for k in sorted(d):
+        print (k + ': ' + str(d[k]))
+
+mystring = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc accumsan sem ut ligula scelerisque sollicitudin. Ut at sagittis augue. Praesent quis rhoncus justo. Aliquam erat volutpat. Donec sit amet suscipit metus, non lobortis massa. Vestibulum augue ex, dapibus ac suscipit vel, volutpat eget massa. Donec nec velit non ligula efficitur luctus.'
+count_dict(mystring)
+
+         

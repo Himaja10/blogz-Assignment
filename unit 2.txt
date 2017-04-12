@@ -1,0 +1,54 @@
+how runstone worked
+this is the language that browsers know how to interpret
+interact
+server side language
+not necessary(u would built a website with only html css and java script
+**just  wouldnt be very intresting
+web server (java, python,ruby javascript whatever renders html or json dynamically
+version control
+version control is an essential tool for any software developer who wants to work on team
+git is the dominant version control
+learn it
+git is distributed
+github is a place to store remote repository
+urls:
+domain name + location of a resource you are looking for
+for static websites this will map to a specific directory structure
+for dynamic this will not always be the case
+**url will be interpreted by the servers
+html:content is built from elements
+elements describes what it contains
+what does title do?---
+what are some examples of elements??--
+what are some examples of attributes?
+how can we link css to our sites?
+what is a selector? its html tag that is connected to css
+what are the different kinds of selectors?id,pseudo,universal
+what are some common css properties?
+when should u use an element selector v/s a class v/s id
+when to use an element selector
+  --want to apply a style to every element
+  --example i want all of my h1 to use a specific san-serif element
+  --when i want to share some styles b/w a variety os elements but want more control over elements
+when to use id selector
+	--each id is unique
+why we indent?
+	indentation helps to see tree 
+	helps make sure u dont have any unclosed elements
+	much easier to read
+developer tools
+how to open developer tools
+	clt +shift+ i
+	
+what is html--containing content of web page?what is css?
+what purpose do these formats serve?
+in what way html like a  tree?--
+what relationship does http have with html?--http alows the client to html content
+name 3 types of conttent that can be delivered with http
+url--protocal+domain+port+path +queryparams +fragment
+queryparams-- sent additional data to the server--ex:google maps
+fragment-- end of the url,not sent to server
+
+
+ports--
+

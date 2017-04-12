@@ -1,0 +1,82 @@
+plaintext = input("enter a message")
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+k = 13
+cipher = ''
+for c in plaintext:
+        if c in alphabet:
+            cipher += alphabet[(alphabet.index(c)+k) %(len(alphabet))]
+print('Your encrypted message is: ' + cipher)
+
+plaintext = input("Type a message: ")
+alphabet = "abcdefghijklmnopqrstuvwxyz  !"
+def encrypt(plaintext, rot):
+while len(alphabet) < len(plaintext):
+   alphabet += alphabet
+   if len(alphabet) > len(plaintext):
+       newkey = 
+
+	   
+	   
+	   def rot(mess,n):
+    alphabet = 'abcdefghijklmnopqrstuvwxyz'
+    encrypted = ''
+    for char in mess:
+        if char == ' ':
+            encrypted = encrypted + ' '
+        else:
+            rotated_index = alphabet.index(char) + n
+            if rotated_index < 26:
+                encrypted = encrypted + alphabet[rotated_index]
+            else:
+                encrypted = encrypted + alphabet[rotated_index % 26]
+    return encrypted
+
+
+print(rot('Hello World!', 5))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def rot(mess,n):
+    alphabet = 'abcdefghijklmnopqrstuvwxyz'
+    encrypted = ''
+    for char in mess:
+        if (not(char.isalpha())):
+            encrypted = encrypted + char
+        else:
+            if char.isupper():
+                a = True
+                char = char.lower()
+            else:
+                a = False
+            rotated_index = alphabet.index(char) + n
+            if rotated_index < 26:
+                if (a == True):                    
+                    encrypted = encrypted + alphabet[rotated_index].upper()
+                else:
+                    encrypted = encrypted + alphabet[rotated_index]
+            else:
+                if (a == True):
+                    encrypted = encrypted + alphabet[rotated_index % 26].upper() 
+                else:
+                    encrypted = encrypted + alphabet[rotated_index % 26]            
+    return encrypted
+
+
+print(rot('World, Hello!', 5))
+
+
+      

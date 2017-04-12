@@ -1,0 +1,59 @@
+class VideoPost(post):
+	def __init__(self, title, author, url):
+		super().__init__(title, author, None)
+		self.video_url = url
+		self.plays = 0
+	
+	
+	
+	
+	def play(self):
+		self.plays += 1
+		
+	
+	
+	
+	
+	def __str__(self):
+		return "Title: " + self.title + "Author: " + self.author + "Body: " + self.body +
+		
+samplePost = Post("i like cats", "himaja", "duh")
+sampleVideopost = Poat("cat video" himaja" "www.catvidoes.com")
+samplepost.like()
+sampleVideopost.like()
+
+print(samplepost)
+print(sampleVideopost)
+
+
+
+
+
+
+
+
+
+class ImagePost(Post):
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

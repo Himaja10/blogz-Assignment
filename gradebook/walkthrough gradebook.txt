@@ -1,0 +1,28 @@
+
+ cont = "y"
+ gradebook = {}
+
+ while cont == "y":
+      grade = input("your grade (0.0-4.0): ")
+	  grade = float(grade)
+	  
+	  
+	  credits = input("credits: ")
+	  credits = int(credits)
+	  gradebook[grade] = credits
+	  cont = input("Enter another grade? [y/n]: ")
+	  while cont != "y" and cont != "n":
+	       cont  = input("Enter another grade? [y/n]: ")
+		   
+		  
+		  
+		  
+qualityscore = 0
+crefits =0
+
+for (k, v) in gradebook.items():
+     qualityscore += k * v
+	 credits += v
+	 
+	 
+print("total GPA :" +str(qualityscore / credits))
